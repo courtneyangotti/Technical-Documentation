@@ -1,0 +1,98 @@
+
+#introduction{
+  text-alig: center;
+}
+h1{
+  font-size: 35px;
+  text-align: center;
+}
+#description {
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+strong{
+  text-align: center;
+}
+
+header {
+  font-size: 30px;
+  color: blue;
+  
+  
+}
+p{
+ 
+  padding-left: 255px;
+  padding-right: 70px;
+}
+.main-section{
+  padding-left: 200px;
+} 
+
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+ 
+}
+
+.sidenav a {
+
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color:  blue;
+}
+
+#main-doc{
+  background-color: gray;
+}
+.main-doc {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#bullet {
+   padding-left: 255px;
+   padding-right: 70px;
+  }
+
+ 
+  
+code{
+   display: block;
+   position: relative;
+   word-break: normal;
+   word-wrap: normal;
+   background-color: black;
+   color: white;
+   box-sizing: content-box;  
+   width: 900px;
+   margin-left: 250px;
+  padding: 20px;
+  text-align: center;
+  min-width: 200px;
+  border: 2px solid blue;
+  
+}
+#navbar {
+  position: absolute;
+}

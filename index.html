@@ -1,0 +1,106 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<nav id="navbar" 
+ <h1><header></header></h1> 
+    <div class="sidenav">
+      <ul>
+      
+      <li><a class="nav-link" id="header" href="#Introduction">Introduction</a></li>
+        <br>
+        
+       <li><a class="nav-link" href="#Javascript_and_Java">Javascript and Java</a></li>
+        
+       <li><a class="nav-link" href="#Variables">Variables</a></li>
+        
+  <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
+        
+        <li><a class="nav-link" href="#Scope">Scope</a></li>
+</div>
+      </ul>
+  </nav>
+  
+<main id="main-doc"> 
+  <strong><header>JS Documentation</header></strong>
+  <section class="main-section" class="nav-link" id="Introduction">
+    
+    <header> Introduction </header>
+  <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+      <code>var x = 42.</code>
+  </section>
+   
+  
+  
+
+  
+  <section class="main-section" class="nav-link"
+   id="Javascript_and_Java"> <header>Javascript and Java</header>
+     <p>
+       <div id="bullet">
+       <ul>
+         <li>JavaScript contains a standard library of objects, such as Array, Date, and Math</li> <li>JavaScript contains a core set of language elements such as operators, control structures, and statements.</li> <li>Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects.</li>
+        
+     </ul> </div> <p>For example:</p>  
+    <code>Java example :
+    String str1 = "I can't be changed once created!"; <br> <br>
+      Javascript example: var x = 5;
+var y = 6;
+var z = x + y;
+document.getElementById("demo").innerHTML =
+"The value of z is: " + z;
+    </code>
+     </section>
+     
+  <section class="main-section" class="nav-link"
+   id="Variables"> 
+    <header>Variables</header><p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.<p/>
+<p>
+A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+
+<p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+
+      <code>x = x + 5</code>
+    </section>
+       
+ 
+  
+      <section class="main-section" class="nav-link"
+   id="Declaring_Variables"> 
+    <header>Declaring Variables</header>
+      
+     <p> You can declare a variable in three ways: With the keyword var. For example,This syntax can be used to declare both local and global variables.<br>This syntax can be used to declare both local and global variables.
+ Creating a variable in JavaScript is called "declaring" a variable.
+
+You declare a JavaScript variable with the var keyword:
+
+var carName;
+      </p>
+        <code>var carName;</code> <br> <br>
+        <p> 
+        </p>
+      </section>
+ 
+  
+         
+       <section class="main-section"                  class="nav-link"
+           id="Scope">
+         <header>Scope</header>
+           <p>In the JavaScript language there are two types of scopes:
+             <div id="bullet">
+          <ul>
+             <li>Global Scope</li>
+             <li>Local Scope</li>
+           </ul>
+         </div>
+<p>Variables defined inside a function are in local scope while variables defined outside of a function are in the global scope. Each function when invoked creates a new scope
+           </p>
+           <p></p>
+             <code>myFunction();
+
+function myFunction() {
+  var carName = "Volvo";
+  document.getElementById("demo1").innerHTML = typeof carName + " " + carName;
+}
+document.getElementById("demo2").innerHTML = typeof carName;</code>
+ 
